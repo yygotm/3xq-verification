@@ -1,0 +1,2 @@
+nodes=21413 dropI=487716 dropP=19496 leafn=17076 skipn=7920 traced=9156 stopP=0 fails=0 maxsteps=219 at n=1099512233887 maxdropdepth=19 time=0.001s rate=1.341e+09 n/s
+odd in range=524288 accounted(dropI+dropP+leafn)=524288 OK

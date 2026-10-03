@@ -1,0 +1,3 @@
+cycles=6 elements=69 CEMAX=5098
+SKIP_T=341
+q=5 ncm=6 cmmax=347 LO=1099511627776 HI=17592186044416 mode=0 F=26 L=10 LEAFN=16 front=656074 build=jk10,w8,tp1,ls1,trp0,sc100000,cmx1,src=a5fc0a7c6d12 setup=0.13s

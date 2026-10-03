@@ -1,0 +1,24 @@
+q=5 exit=0 wall=0s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=567 at n=1092519905451  maxsteps=0 at n=0
+q=7 exit=0 wall=18s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=576 at n=111851277129  maxsteps=0 at n=0
+q=11 exit=0 wall=17s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=134585665005  maxsteps=0 at n=0
+q=13 exit=0 wall=19s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=576 at n=716964818979  maxsteps=0 at n=0
+q=17 exit=0 wall=21s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=586 at n=1096869217247  maxsteps=0 at n=0
+q=19 exit=0 wall=22s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=566 at n=1045510613181  maxsteps=0 at n=0
+q=23 exit=0 wall=21s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=579 at n=1038505924169  maxsteps=0 at n=0
+q=29 exit=0 wall=21s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=626 at n=628846358031  maxsteps=0 at n=0
+q=31 exit=0 wall=22s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=566 at n=842356184473  maxsteps=0 at n=0
+q=37 exit=0 wall=26s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=596 at n=338909464203  maxsteps=0 at n=0
+q=41 exit=0 wall=22s chunks=114/114 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=342258432983  maxsteps=0 at n=0
+q=43 exit=0 wall=29s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=526107599565  maxsteps=0 at n=0
+q=47 exit=0 wall=25s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=575047841385  maxsteps=0 at n=0
+q=53 exit=0 wall=25s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=566 at n=786586011771  maxsteps=0 at n=0
+q=59 exit=0 wall=25s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=571 at n=447366425913  maxsteps=0 at n=0
+q=61 exit=0 wall=23s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=636 at n=318013237195  maxsteps=0 at n=0
+q=67 exit=0 wall=25s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=819749050485  maxsteps=0 at n=0
+q=71 exit=0 wall=25s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=596 at n=429875086737  maxsteps=0 at n=0
+q=73 exit=0 wall=27s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=585 at n=884754589735  maxsteps=0 at n=0
+q=79 exit=0 wall=27s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=556 at n=863333527473  maxsteps=0 at n=0
+q=83 exit=0 wall=27s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=557 at n=646065018285  maxsteps=0 at n=0
+q=89 exit=0 wall=29s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=635 at n=574102120103  maxsteps=0 at n=0
+q=97 exit=0 wall=33s chunks=115/115 odd=549755813888 accounted=549755813888 OK maxsteps=593 at n=515692154427  maxsteps=0 at n=0
+== all done

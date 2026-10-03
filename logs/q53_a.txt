@@ -1,0 +1,3 @@
+nodes=72931 dropI=1828328 dropP=211804 leafn=57020 skipn=26440 traced=30578 stopP=10 fails=0 maxsteps=281 at n=3964875 maxdropdepth=21 time=0.047s rate=8.962e+07 n/s
+odd in range=2097152 accounted(dropI+dropP+leafn)=2097152 OK
+selfcheck_bad=0

@@ -1,0 +1,75 @@
+gcc (Debian 12.2.0-14+deb12u1) 12.2.0
+Python 3.11.2
+== build warnings: 0 lines
+== cycle minima (brute force, n < 200000)
+-1	1,5,17
+5	1,5,19,23,187,347
+7	5,7
+11	1,11,13
+13	1,13,131,211,227,251,259,283,287,319
+17	1,17,23
+19	5,19
+23	5,7,23,41
+29	1,11,29,3811,7055
+31	13,31
+37	19,23,29,37
+41	1,41
+43	1,43
+47	5,25,47,65,73,85,89,101
+53	53,103
+59	1,59,133,149,181,185,217,221
+61	1,61,235
+67	17,67
+71	29,31,71,2585,2809,3985,4121,4409
+73	5,19,47,73
+79	1,7,79,233,265
+83	65,83,109,157
+89	17,89
+97	1,13,97
+== regression q=-1 against verify2 (3x-1)
+SAME  [1 4194304 2 10 10 2] exit=0 accounted(dropI+dropP+leafn)=2097152 OK
+SAME  [1 4194304 0 10 10 2] exit=0 accounted(dropI+dropP+leafn)=2097152 OK
+SAME  [137 4194304 0 10 10 2] exit=0 accounted(dropI+dropP+leafn)=2097084 OK
+SAME  [137 4194304 1 10 10 2] exit=0 accounted(dropI+dropP+leafn)=2097084 OK
+SAME  [1 20971520 1 16 10 2] exit=0 accounted(dropI+dropP+leafn)=10485760 OK
+SAME  [1099511627776 1099515822080 2 16 10 2] exit=0 accounted(dropI+dropP+leafn)=2097152 OK
+DIFF  [35184372088832 35184388866048 2 12 10 16] exit ref=0 new=0
+nodes=38489 dropI=7813088 dropP=318976 leafn=256544 skipn=119188 traced=137356 stopP=148 fails=0 maxsteps=260 at n=35184386170833 maxdropdepth=20 n/s
+odd in range=8388608 accounted(dropI+dropP+leafn)=8388608 OK
+selfcheck_bad=0
+nodes=38489 dropI=7813088 dropP=318976 leafn=256544 skipn=119188 traced=137356 stopP=148 fails=0 maxsteps=260 at n=35184388413441 maxdropdepth=20 n/s
+odd in range=8388608 accounted(dropI+dropP+leafn)=8388608 OK
+selfcheck_bad=0
+logs/ref.err:SKIP_T=28
+logs/new.err:SKIP_T=28
+== 3x+q selfcheck (mode 2) A=[1,2^22) B=[2^40,2^40+2^20), exact (mode 1) C=[1,2^20), production path (mode 0, leaf_fast) D=[2^40,2^40+2^20)
+q=5 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=5098 SKIP_T=341 
+q=7 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=20 SKIP_T=455 
+q=11 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=124 SKIP_T=681 
+q=13 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=2786 SKIP_T=795 
+q=17 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=280 SKIP_T=1021 
+q=19 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=62 SKIP_T=1135 
+q=23 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=2488 SKIP_T=1361 
+q=29 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=3415660 SKIP_T=1701 
+q=31 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=212 SKIP_T=1815 
+q=37 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=152 SKIP_T=2155 
+q=41 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=256 SKIP_T=2381 
+q=43 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=86 SKIP_T=2495 
+q=47 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=988 SKIP_T=2721 
+q=53 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=1162 SKIP_T=3061 
+q=59 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=2128 SKIP_T=3401 
+q=61 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=49916 SKIP_T=3515 
+q=67 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=2120 SKIP_T=3855 
+q=71 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=96976 SKIP_T=4081 
+q=73 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=3194 SKIP_T=4195 
+q=79 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=3728 SKIP_T=4535 
+q=83 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=3292 SKIP_T=4761 
+q=89 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=532 SKIP_T=5101 
+q=97 exits=0/0/0/0 | A: fails=0 OK selfcheck_bad=0 | B: fails=0 OK selfcheck_bad=0 | C: fails=0 OK  | D: fails=0 OK  | CEMAX=218 SKIP_T=5555 
+== negative: q=5 without the cycle of 19 must FAIL (expect exit 2)
+exit=2 FAIL lines=1
+== BENCH_STRIDE must not exit 0 (expect exit 4)
+exit=4
+== checkpoint: resume accepts only DONE lines from the same build
+exits=0/0/0 (expect 0/0/0) DONE=66 (expect 66: jk10 once + jk8 once) ALLDONE=3 (expect 3)
+== done

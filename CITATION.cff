@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "The 3x+q map for primes 5 <= q <= 97: computational verification that every starting value below 2^48 reaches a known cycle"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Shimizu"
+    given-names: "Hirotaka"
+license: "MIT"
+keywords:
+  - 3x+q
+  - generalized Collatz problem
+  - cycles
+  - computational verification
+references:
+  - type: database
+    title: "A226607: Irregular array read by rows in which row floor(k/3)+1, where gcd(k,6)=1, lists the smallest elements, in ascending order, of conjecturally all primitive cycles of positive integers under iteration by the 3x+k function"
+    authors:
+      - family-names: Morley
+        given-names: Geoffrey H.
+    year: 2013
+    url: "https://oeis.org/A226607"
+  - type: software
+    title: "3x-1-verification"
+    authors:
+      - family-names: "Shimizu"
+        given-names: "Hirotaka"
+    version: "0.4.0"
+    doi: "10.5281/zenodo.23047609"
